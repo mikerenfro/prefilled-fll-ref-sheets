@@ -1,5 +1,8 @@
 # FLL Robot Game Score Sheet Filler
 
+Originally written for the East Tennessee regional championship (48 teams, 8 tables) so that referees don't have to fill out a table number, team, and round number on each of 18 sheets.
+Helps with legibility, keeps the old-fashioned paper trail in case there's questions from the scorekeepers.
+
 ![Screenshot of resulting PDF for one table](after-sheets-filled.png)
 
 # Requirements
