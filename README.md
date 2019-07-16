@@ -1,4 +1,4 @@
-% FLL Robot Game Score Sheet Filler
+# FLL Robot Game Score Sheet Filler
 
 # Requirements
 
