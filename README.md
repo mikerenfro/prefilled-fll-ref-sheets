@@ -1,5 +1,7 @@
 # FLL Robot Game Score Sheet Filler
 
+![Screenshot of resulting PDF for one table](after.png)
+
 # Requirements
 
 - Python 3
