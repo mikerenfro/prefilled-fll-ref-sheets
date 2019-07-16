@@ -12,7 +12,7 @@ Helps with legibility, keeps the old-fashioned paper trail in case there's quest
 - Reportlab Python module
 - pdfrw Python module
 
-Developed on Python 3.7, Pandas 0.24.1, 3.5.13, pdfrw 0.4
+Developed on Python 3.7, Pandas 0.24.1, ReportLab 3.5.13, pdfrw 0.4
 
 # Instructions
 
