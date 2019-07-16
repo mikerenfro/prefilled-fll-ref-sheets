@@ -1,6 +1,6 @@
 # FLL Robot Game Score Sheet Filler
 
-![Screenshot of resulting PDF for one table](after.png)
+![Screenshot of resulting PDF for one table](after-sheets-filled.png)
 
 # Requirements
 
