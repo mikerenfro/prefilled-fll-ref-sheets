@@ -79,7 +79,7 @@ It's assumed this PDF will have:
 Hav a team schedule (.docx format) saved in the current directory. It's assumed that you'll have:
 
 - a first paragraph placeholder that will be replaced with "Welcome, Team N (Team Name)!" (where N and Team Name are replaced with the team's actual number and name)
-- a second paragraph placeholder that will be replaced with "Your Pit Assignemnt: Pit N" (where N is replaced with the team's actual pit assignment)
+- a second paragraph placeholder that will be replaced with "Your Pit Assignment: Pit N" (where N is replaced with the team's actual pit assignment)
 - a table representing your pit layout as the first table in the document, with greyed-out pit numbers in the appropriate cells. The team's pit number will be bolded and blackened.
 - an optional table with two rows, a placeholder for the team's practice round schedule
 - a table with 2 rows and 3 columns, a placeholder for the team's robot game schedule
