@@ -31,20 +31,22 @@ column_types = {'Pit': str, 'Team': int, 'Team Name': str,
                 'Time2': float, 'Table2': str,
                 'Time3': float, 'Table3': str}
 
-Debug = True
+Debug = False
 if Debug:
     # schedule = 'fll-total-schedule.csv'  # Championship
     schedule = 'summertown-total-schedule.csv'  # Qualifier
     rg_template_path = 'city-shaper-score-sheet.pdf'
     rubric_template_path = 'first-lego-league-rubrics.pdf'
-    team_template_path = 'team-template.docx'
+    team_template_path = 'summertown-team-template.docx'
+    date = '2019-12-07'
 else:
     # Non-debugging paths:
     (schedule, rg_template_path,
-     rubric_template_path, team_template_path) = fll_sheet_utils.parse_args()
+     rubric_template_path, team_template_path,
+     date) = fll_sheet_utils.parse_args()
 
 data = fll_sheet_utils.read_csv(schedule, column_types)
 fll_sheet_utils.make_referee_sheets(data, rg_template_path)
 fll_sheet_utils.make_judge_sheets(data, rubric_template_path)
 fll_sheet_utils.make_team_sheets(data, team_template_path, timeformat,
-                                 buildingip, buildingrd, buildingcv)
+                                 buildingip, buildingrd, buildingcv, date)
