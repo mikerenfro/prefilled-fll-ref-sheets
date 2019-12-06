@@ -449,35 +449,35 @@ def parse_args():
         in_file = open(sys.argv[1], 'r')
         in_file.close()
     except IndexError:
-        sys.exit("Usage: {0} schedule.csv " +
+        sys.exit("Usage: {0} schedule.csv ".format(sys.argv[0]) +
                  "robot-game-template.pdf rubric.pdf " +
-                 "team-template.docx YYYY-MM-DD".format(sys.argv[0]))
+                 "team-template.docx YYYY-MM-DD")
     except IOError:
         sys.exit("Can't read CSV schedule {0}".format(sys.argv[1]))
     try:
         in_file = open(sys.argv[2], 'r')
         in_file.close()
     except IndexError:
-        sys.exit("Usage: {0} schedule.csv " +
+        sys.exit("Usage: {0} schedule.csv ".format(sys.argv[0]) +
                  "robot-game-template.pdf rubric.pdf " +
-                 "team-template.docx YYYY-MM-DD".format(sys.argv[0]))
+                 "team-template.docx YYYY-MM-DD")
     except IOError:
         sys.exit("Can't read robot game template {0}".format(sys.argv[2]))
     try:
         in_file = open(sys.argv[3], 'r')
         in_file.close()
     except IndexError:
-        sys.exit("Usage: {0} schedule.csv " +
+        sys.exit("Usage: {0} schedule.csv ".format(sys.argv[0]) +
                  "robot-game-template.pdf rubric.pdf " +
-                 "team-template.docx YYYY-MM-DD".format(sys.argv[0]))
+                 "team-template.docx YYYY-MM-DD")
     except IOError:
         sys.exit("Can't read rubric template {0}".format(sys.argv[3]))
     try:
         date = datetime.datetime.strptime(sys.argv[4], '%Y-%m-%d')
     except IndexError:
-        sys.exit("Usage: {0} schedule.csv " +
+        sys.exit("Usage: {0} schedule.csv ".format(sys.argv[0]) +
                  "robot-game-template.pdf rubric.pdf " +
-                 "team-template.docx YYYY-MM-DD".format(sys.argv[0]))
+                 "team-template.docx YYYY-MM-DD")
     except ValueError:
         sys.exit("{0} is not in YYYY-MM-DD format".format(sys.argv[4]))
     schedule = sys.argv[1]
