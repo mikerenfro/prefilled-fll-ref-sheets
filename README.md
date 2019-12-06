@@ -7,7 +7,11 @@ Helps with legibility, keeps the old-fashioned paper trail in case there's quest
 
 Also fills out team numbers for your Core Values, Robot Design, and Innovation Project judging rooms.
 
+![Screenshot of resulting PDF for one judging room](after-rubric-filled.png)
+
 Also makes a Word document to print and include in each team's folder or bag, with the team's schedule for the day laid out legibly, including QR codes for each scheduled event.
+
+![Screenshot of resulting DOCX for one team](after-schedule-filled.png)
 
 Yeah, it's grown a bit since the original version.
 
